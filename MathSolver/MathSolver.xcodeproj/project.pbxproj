@@ -12,7 +12,6 @@
 		C93CF59B27EBBB71008249D4 /* CylRoerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CF59A27EBBB71008249D4 /* CylRoerView.swift */; };
 		C93CF59D27EBBE76008249D4 /* CylRoerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CF59C27EBBE76008249D4 /* CylRoerField.swift */; };
 		C9D6354E27EA74E2001F1A06 /* MathSolverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6354D27EA74E2001F1A06 /* MathSolverApp.swift */; };
-		C9D6355027EA74E2001F1A06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6354F27EA74E2001F1A06 /* ContentView.swift */; };
 		C9D6355227EA74E6001F1A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D6355127EA74E6001F1A06 /* Assets.xcassets */; };
 		C9D6355527EA74E6001F1A06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D6355427EA74E6001F1A06 /* Preview Assets.xcassets */; };
 		C9D6356027EA74E6001F1A06 /* MathSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6355F27EA74E6001F1A06 /* MathSolverTests.swift */; };
@@ -46,7 +45,6 @@
 		C93CF59C27EBBE76008249D4 /* CylRoerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CylRoerField.swift; sourceTree = "<group>"; };
 		C9D6354A27EA74E2001F1A06 /* MathSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D6354D27EA74E2001F1A06 /* MathSolverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathSolverApp.swift; sourceTree = "<group>"; };
-		C9D6354F27EA74E2001F1A06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9D6355127EA74E6001F1A06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9D6355427EA74E6001F1A06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9D6355627EA74E6001F1A06 /* MathSolver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MathSolver.entitlements; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 			children = (
 				C9D6357827EA756C001F1A06 /* View */,
 				C9D6354D27EA74E2001F1A06 /* MathSolverApp.swift */,
-				C9D6354F27EA74E2001F1A06 /* ContentView.swift */,
 				C9D6355127EA74E6001F1A06 /* Assets.xcassets */,
 				C9D6355627EA74E6001F1A06 /* MathSolver.entitlements */,
 				C9D6355327EA74E6001F1A06 /* Preview Content */,
@@ -296,7 +293,6 @@
 				C9D6357D27EA774F001F1A06 /* ImageView.swift in Sources */,
 				C93CF59D27EBBE76008249D4 /* CylRoerField.swift in Sources */,
 				C93CF59527EBB5C0008249D4 /* CylinderView.swift in Sources */,
-				C9D6355027EA74E2001F1A06 /* ContentView.swift in Sources */,
 				C9D6354E27EA74E2001F1A06 /* MathSolverApp.swift in Sources */,
 				C9D6357A27EA757D001F1A06 /* CylField.swift in Sources */,
 				C93CF59727EBB5F7008249D4 /* SegmentedView.swift in Sources */,

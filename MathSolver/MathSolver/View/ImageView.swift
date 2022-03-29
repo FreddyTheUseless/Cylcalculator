@@ -16,7 +16,8 @@ struct ImageView: View {
         Image(image)
             .resizable()
             .scaledToFit()
-    }
+//        Skaber et resizable billede som altid vil passe til skærmen
+    }//: BODY
 }
 
 // MARK: - Preview

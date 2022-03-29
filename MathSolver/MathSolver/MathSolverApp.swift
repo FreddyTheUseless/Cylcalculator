@@ -11,7 +11,7 @@ import SwiftUI
 struct MathSolverApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SegmentedView()
         }
     }
 }
