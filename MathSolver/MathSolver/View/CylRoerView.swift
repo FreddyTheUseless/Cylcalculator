@@ -12,8 +12,10 @@ struct CylRoerView: View {
     
     var body: some View {
         HStack(spacing: 10) {
+            Spacer()
             CylRoerField()
             ImageView(image: "Cylror")
+            Spacer()
             
         }
     }

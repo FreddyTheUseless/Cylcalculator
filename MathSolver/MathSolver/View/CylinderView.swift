@@ -10,9 +10,10 @@ import SwiftUI
 struct CylinderView: View {
     var body: some View {
         HStack(spacing: 10) {
+            Spacer()
             CylField()
-            
-        ImageView(image: "Cylinder")
+            ImageView(image: "Cylinder")
+            Spacer()
             
         }//. HStack
     }

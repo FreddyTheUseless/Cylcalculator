@@ -24,10 +24,6 @@ struct CylField: View {
                 .font(.system(size: 20))
             TextField("", value: $r, formatter: NumberFormatter())
             
-            Text("Du behøver kun at indtaste for enten diameter eller radius")
-                .foregroundColor(.gray)
-                .font(.system(size: 10))
-            
             
 //            Tekstfelt for højde
             Text("Højde")
@@ -39,15 +35,15 @@ struct CylField: View {
             let akrum = 2 * Double.pi * r * h
             
             if (V <= 0) {
-                Text("V = π x r^2 x h")
+                Text("Volume = π x r^2 x h")
             } else if (V > 0) {
-                Text("V = \(V, specifier: "%.2f")")
+                Text("Volume = \(V, specifier: "%.2f")")
             }
             
             if (akrum <= 0) {
-                Text("Akrum = 2 x π x r x h")
+                Text("Overflade areal = 2 x π x r x h")
             } else if (akrum > 0) {
-                Text("Akrum = \(akrum, specifier: "%.2f")")
+                Text("Overflade areal = \(akrum, specifier: "%.2f")")
             }
             
             
